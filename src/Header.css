@@ -1,0 +1,6 @@
+/* Add to your CSS file (Header.css) */
+
+a.active-link {
+    color: rgb(255, 94, 0); /* Orange color */
+    font-weight: bold; /* Optional: make the text bold */
+}

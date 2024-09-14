@@ -1,0 +1,117 @@
+.aboutus-section{
+    margin-top: 8rem;
+}
+
+.aboutus-section hr{
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 90%;
+}
+
+.about-us-container{
+    margin: 4rem 1rem;
+}
+.about-us-header h4{
+    color: rgb(255, 123, 0);
+}
+
+.about-us-container h3{
+    color: rgb(255, 123, 0);
+}
+
+.about-us-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.about-us-card{
+    padding: .5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    align-items: center;
+    text-align: justify;
+  }
+  
+  .about-us-card h4{
+    margin-bottom: 0;
+  }
+  .about-us-card:hover{
+    border-radius: 0 0 3rem 3rem;
+    transition-delay: .1s ease ;
+    box-shadow: 0px 100px 100px rgb(231, 230, 230);
+  }
+  .about-us-icon{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 2rem;
+    background-color: rgb(255, 123, 0);
+
+  }
+  .team-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .team-section-title{
+    color: rgb(255, 123, 0);
+  }
+  .team-section img{
+    width: 100%;
+  }
+  .team-section-image{
+     width: 300px;
+     background: white;
+     box-shadow: 0px 100px 100px rgb(231, 230, 230);
+  }
+  .team-section-image-description{
+    text-align: justify;
+    padding: 1rem;
+  }
+  .team-section-image-description h4, .team-section-image-description h5{
+    margin: 0;
+  }
+  .team-section-image-description h5{
+    color: #646464;
+  }
+
+  @media screen and (min-width: 700px) {
+   .about-us-container{
+    display: flex;
+    gap: 2rem;
+   }
+   @media screen and (min-width: 700px) {
+    .team-section {
+        text-align: left;
+      }
+    
+   .team-section-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+  .team-section-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-section-image img {
+    width: 50%; /* Adjust the image width on larger screens */
+    max-width: none; /* Remove max-width restriction */
+  }
+
+  }
+  }

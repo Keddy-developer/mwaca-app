@@ -1,0 +1,132 @@
+.blogpage-section {
+    margin-top: 8rem;
+    padding: 0 1rem;
+}
+
+.blogpage-section hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 90%;
+}
+
+.blogpage-section h3 {
+    color: rgb(255, 95, 2);
+}
+
+.blogpage-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.blogpage-card {
+    width: 100%;
+    position: relative;
+    max-width: 300px;
+}
+
+.blogpage-card img {
+    border-radius: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.blog-page-data {
+    position: absolute;
+    bottom: .6rem;
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    border-radius: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.blog-page-data h5, .blog-page-data h4, .blog-page-data button {
+    margin: .5rem;
+}
+
+.blog-page-data h5 {
+    font-weight: 500;
+}
+
+.blog-page-data button {
+    border: none;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    border-radius: 3rem;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff7f00, #ff9f00, #ffb700, #ffc107);
+}
+
+.blog-page-data button:hover {
+    background: linear-gradient(to right, #e27202, #ca7e04, #dfa003, #e2ac08);
+}
+
+.blog-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    overflow: auto; /* Ensure the modal itself is scrollable if needed */
+}
+
+.blog-modal-content {
+    padding: 2rem 1rem;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    max-height: 90vh; /* Limit the height to a percentage of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds max-height */
+}
+.blog-close-btn{
+    position: relative;
+}
+
+.blog-modal-close {
+    position: absolute;
+    top: -2rem;
+    right: 0;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.blog-post-content {
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+.blog-post-content h1,
+.blog-post-content h2,
+.blog-post-content h3,
+.blog-post-content h4,
+.blog-post-content h5,
+.blog-post-content h6 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-post-content p {
+    margin: 0.5rem 0;
+}
+
+.blog-post-content strong {
+    font-weight: bold;
+}
+
+.blog-post-content em {
+    font-style: italic;
+}
