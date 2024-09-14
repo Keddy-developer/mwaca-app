@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mwaca-app/static/css/main.dc721262.css",
+    "main.js": "/mwaca-app/static/js/main.85d856ba.js",
+    "static/js/568.51b08abe.chunk.js": "/mwaca-app/static/js/568.51b08abe.chunk.js",
+    "static/media/remixicon.svg?t=1718271040674": "/mwaca-app/static/media/remixicon.f38690bdde29bddbc211.svg",
+    "static/media/remixicon.eot?t=1718271040674": "/mwaca-app/static/media/remixicon.d87042cf9a3f67d1cab2.eot",
+    "static/media/remixicon.ttf?t=1718271040674": "/mwaca-app/static/media/remixicon.88da6179288d7835c2f0.ttf",
+    "static/media/remixicon.woff?t=1718271040674": "/mwaca-app/static/media/remixicon.1bdc36c90398c9d667d1.woff",
+    "static/media/more-bg.png": "/mwaca-app/static/media/more-bg.ebee97370ace185bd624.png",
+    "static/media/remixicon.woff2?t=1718271040674": "/mwaca-app/static/media/remixicon.8aece9ab0de67b79cfda.woff2",
+    "static/media/choose-us-bg.png": "/mwaca-app/static/media/choose-us-bg.7488854860c5e6f17c2b.png",
+    "static/media/slick.svg": "/mwaca-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/mwaca-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/mwaca-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/mwaca-app/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/mwaca-app/index.html",
+    "main.dc721262.css.map": "/mwaca-app/static/css/main.dc721262.css.map",
+    "main.85d856ba.js.map": "/mwaca-app/static/js/main.85d856ba.js.map",
+    "568.51b08abe.chunk.js.map": "/mwaca-app/static/js/568.51b08abe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc721262.css",
+    "static/js/main.85d856ba.js"
+  ]
+}
